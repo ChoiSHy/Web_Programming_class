@@ -1,0 +1,56 @@
+body {
+    width: 210mm;
+    height: 297mm;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+li {
+    font-weight: bold;
+    font-size:large;
+    margin-bottom:10px; 
+}
+img {
+    width:3cm;
+    height: 4cm;
+    object-fit: cover;
+}
+.photo {
+    width:3cm;
+    height: 4cm;
+}
+table {
+    width: 100%;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    border: 3px solid white;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+th {
+    background-color: rgb(240, 240, 240);
+}
+th, td {
+    border: 1px solid; 
+    border-color: rgb(200,200,200);
+    height: 20px;
+    width:auto;
+}
+.jus {
+    text-align:justify;
+    text-align-last: justify;
+    padding-left:3.9%;
+    padding-right:3.9%;
+}
+.left{
+    padding-left: 10px;
+    text-align:left;
+}
+.note{
+    text-align: justify;
+    text-align-last: justify;
+    padding-left:10%;
+    padding-right:10%;
+}
