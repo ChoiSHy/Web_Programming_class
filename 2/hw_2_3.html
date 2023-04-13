@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제3</title>
+
+</head>
+
+<body>
+    <h1>글 작성하기</h1>
+    <table>
+        <tr>
+            <th>작성자</th>
+            <td><input type="text"></td>
+        </tr>
+        <th>이메일</th>
+        <td><input type="email" name="email" id="email" placeholder="example@email.com"></td>
+        <tr>
+            <th>이메일</th>
+            <td><input type="text">@<input type="text"
+                placeholder="email.com"></td>
+        </tr>
+        <tr>
+            <th>휴대폰</th>
+            <td>
+                <select id="tel">
+                    <option>010</option>
+                    <option>011</option>
+                    <option>012</option>
+                    <option>013</option>
+                    <option>014</option>
+                </select>
+                -
+                <input type="tel" maxlength="4">
+                -
+                <input type="tel" maxlength="4">
+            </td>
+        </tr>
+        <tr>
+            <th>글제목</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>내용</th>
+            <td><textarea rows="10" cols="25"></textarea></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><input type="submit"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
